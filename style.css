@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: 800;
+    font-size: calc(1.5vw + 2vw);
+    width: 100%;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+h5{
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+p{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+span{
+    color: #2AEC57;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 100%;
+    padding: 8px 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 28%;
+    min-width: 350px;
+    max-width: 600px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.main img{
+    width: 100%;
+}
+
+.main .content{
+    position: absolute;
+    bottom: 40px;
+    left: 5vw;
+    width: 40%;
+    max-width: 1000px;
+    color: white;
+}
+
+.bussines{
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.bussines h2{
+    width: 100%;
+}
+
+.poslovanjeH2{
+    margin-top: 7vh;
+}
+
+.poslovanjeP{
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.box{
+    width: 30%;
+    max-width: 500px;
+    min-width: 280px;
+    padding-top: 45px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box p{
+    text-align: center;
+}
+
+/* contact */
+
+.margin5{
+    margin-bottom: 13px;
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    color: white;
+}
+
+.contact img{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.contact-form{
+    width: 50%;
+    height: 100%;
+    padding: 40px 5vw;
+}
+
+.contact h2{
+    margin-bottom: 25px;
+}
+
+input, textarea, button{
+    box-sizing: border-box;
+}
+
+.contact-form input {
+    width: 100%; 
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-family: inherit;
+
+    border: none;
+    outline: none;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    outline: none;
+    font-family: inherit;
+}
+
+#successP {
+    color: #2AEC57;
+}
+
+.contact-form button{
+    width: 20%;
+    min-width: 100px;
+    height: 40px;
+    margin-top: 45px;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 2px;
+    background-color: #2AEC57;
+    color: white;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* form .rows{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .rows .row{
+    width: 30%;
+}
+
+form .rows .row input{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+
+    border: none;
+    outline: none;
+}
+
+form textarea{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    outline: none;
+}
+
+form .button{
+    width: 20%;
+    height: 40px;
+    margin-top: 45px;
+
+    border: none;
+    border-radius: 2px;
+    background-color: #2AEC57;
+    color: white;
+} */
+
+/* about us */
+
+.aboutUs{
+    width: 100%;
+    height: auto;
+    padding: 10vh 5vw;
+}
+
+.aboutUs h2{
+    margin-bottom: 4vh;
+}
+
+.aboutUs p{
+    text-align: justify;
+    max-width: auto;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: auto;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+footer .green-box{
+    width: 101vw;
+    height: 0.8vh;
+    max-height: 10px;
+    min-height: 4px;
+    background-color: #2AEC57;
+}
+
+footer .footer-logo{
+    height: 15vh;
+    max-height: 300px;
+    position: relative;
+    right: -0.1vw;
+    bottom: -4px;
+}
+
+footer .txt{
+    height: 11vh;
+    width: 100%;
+    background-color: black;
+    padding: 20px 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .txt .txtBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.txtBox a{
+    display: block;
+    text-decoration: none;
+    color: inherit; 
+}
+
+.txtBox p{
+    z-index: 5;
+    margin-left: 8px;
+    color: white !important;
+    font-weight: 800;
+    font-size: calc(0.8rem + 0.4vw);
+    font-weight: 300;
+    opacity: .9;
+}
+
+.txtBox h3{
+    color: white !important;
+}
+
+@media screen and (max-width: 730px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bussines{
+        justify-content: center;
+    }
+
+    .bussines h2{
+        margin-bottom: 10px;
+    }
+
+    .bussines .box{
+        padding: 10px;
+    }
+
+    .bussines p{
+        margin-bottom: 5px;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .content{
+        min-width: 90vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content img{
+        max-height: 7vh;
+        width: 10vw;
+        align-self: flex-end;
+    }
+
+    .contact-form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form button{
+        align-self: center;
+    }
+
+    .content h1{
+        min-width: 60vw;
+        font-size: 2.5rem;
+    }
+
+    footer .txt{
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer .boxcover{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    footer .txtBox{
+        min-width: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .txtBox a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+    }
+}
+
+/* <div class="txtBox">
+                        <img src="./assets/instagram-svgrepo-com 1.svg" alt="">
+                        <h3><a href="https://www.instagram.com/prizma_distribucije/?hl=en">@prizma_distribucije</a></h3>
+                    </div>
+                    <div class="txtBox">
+                        <img src="./assets/facebook-svgrepo-com 1.svg" alt="">
+                        <h3><a href="https://www.facebook.com/prizma.distribucije/">prizma.distribucije</a></h3> */
