@@ -10,7 +10,7 @@ Explore the live demo of the project [Prizma Distribucije](https://prizma-distri
 
 Prizma Distribucije website was developed entirely from scratch to offer a modern and user-friendly platform for visitors. The website incorporates responsive design principles to ensure seamless viewing and interaction across various devices. Additionally, it features a contact form where users can submit inquiries, with the owner receiving emails upon form submission.
 
-![Prizma Distribucije Showcase](./assets/showcasePrizma.png)
+![Prizma Distribucije Showcase](./assets/showcasePrizma1.png)
 
 ## Technologies Used
 
